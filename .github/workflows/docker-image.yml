@@ -20,4 +20,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/mediaget:latest
+          tags: ghcr.io/${{ github.repository_owner | toLower }}/mediaget:latest
